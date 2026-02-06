@@ -1,6 +1,9 @@
 langchain==0.0.225
 ctransformers==0.2.5  #We uses Quantized model 
 sentence-transformers==2.2.2     # For Embedding model
+huggingface_hub==0.14.1
+transformers==4.30.2
+tokenizers==0.13.3
 pypdf # Because we are using PDF loader
 flask # Lightweight web framework
 faiss-cpu # For vector database
